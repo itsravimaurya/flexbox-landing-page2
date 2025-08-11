@@ -24,23 +24,23 @@ a{
     font-size: 24px;
     color: #f9faf8;
     background-color: #1f2937;
-    padding: 10px 80px 10px 80px;
+    padding: 2rem 6rem;
 }
 .header-nav ul{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     font-size: 18px;
 }
 .header-nav a{
     color: #e5e7eb; 
 }
 
-.hero-section{
+.hero-section .container{
     display: flex;
     background-color: #1f2937;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0px 80px 0px 80px;
+   padding: 2rem 6rem;
 }
 .hero-section-title h1{
     font-size: 48px;
@@ -49,17 +49,24 @@ a{
     line-height: 1.2;
    
 }
-.hero-section-title h2{
+.hero-section-title p{
     font-size: 18px;
     color: #f9faf8;
 }
 .hero-button button {
     background-color: #3882f6;
     border-radius: 6px;
-    padding: 5px 15px;
-    margin-top: 10px;
+    padding: 8px 18px;
+    margin-top: 15px;
     border-color: transparent;
     color: #e5e7eb;
+    font-size: 15px;
+    font-weight: 600;
+}
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+  flex: 1;
 }
 
 .container-services{
@@ -68,6 +75,7 @@ a{
     justify-content: center; /* Center the row in the middle */
     gap: 2rem; /* Even space between cards */
     padding: 2rem 0;
+    
 }
 .service-header h1{
     display: flex;
@@ -94,7 +102,8 @@ a{
 
 .testimonial{
     background-color: #e5e7eb;
-    padding: 80px 250px;
+    padding: 7rem 10rem 7rem 10rem;
+    margin: 50px 0px 50px 0px;
 }
 .quote{
     font-size: 36px;
@@ -104,7 +113,8 @@ a{
 .client-name{
     font-size: 26px;
     font-weight: 900;
-    text-align: end;
+    text-align: right;
+    padding-right: 50px;
 }
 
 .cta{
@@ -116,14 +126,16 @@ a{
     border: solid;
     border-radius: 6px;
     border-color: transparent;
-    padding: 50px ;
-    margin: 60px;
+    padding: 3rem 5rem;
+    margin: 60px 100px 60px 100px;
 }
 .cta-button button{
     border: 2px solid;
     border-radius: 6px;
-    padding: 5px 15px;
+    padding: 8px 18px;
     color: #f9faf8;
+    font-weight: 600;
+    font-size: 15px;
     background-color: #3882f6;
 }
 
@@ -138,5 +150,20 @@ a{
 footer a{
     text-decoration: none;
     color: #f9faf8;
-    margin: 15px;
+    margin: 6px;
 }
+
+
+.header-nav a:hover {
+    color: #3882f6;
+    transition: color 0.3s ease;
+}
+.hero-button button:hover{
+    background-color: #2c6cd6;
+    transform: scale(1.05);
+}
+.cta-button button:hover {
+    background-color: #2c6cd6;
+    transform: scale(1.05);
+}
+
