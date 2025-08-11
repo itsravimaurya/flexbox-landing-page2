@@ -34,3 +34,30 @@ a{
 .header-nav a{
     color: #e5e7eb; 
 }
+
+.hero-section{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+}
+.hero-section-title h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    line-height: 1.2;
+   
+}
+.hero-section-title h2{
+    font-size: 18px;
+    color: #f9faf8;
+}
+.hero-button button {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-color: transparent;
+    color: #e5e7eb;
+}
