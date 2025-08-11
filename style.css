@@ -61,3 +61,33 @@ a{
     border-color: transparent;
     color: #e5e7eb;
 }
+
+.container-services{
+    display: flex;
+    flex-wrap: wrap; /* Stack on smaller screens */
+    justify-content: center; /* Center the row in the middle */
+    gap: 2rem; /* Even space between cards */
+    padding: 2rem 0;
+}
+.service-header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937; 
+    font-weight: 900;
+    padding-top: 30px;
+}
+.services-card {
+    display: flex;
+    flex-direction: column; /* Image above text */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    max-width: 250px; /* Keep cards same width */ 
+}
+.services-card img {
+    max-width: 200px;
+    border-radius: 10px ;
+    border: 4px solid blue;
+    height: auto;
+}
